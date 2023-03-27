@@ -1,0 +1,208 @@
+<!-- Основной формат странички html -->
+<!DOCTYPE html>
+<html>
+    <head> <!-- Служебная инфа, пользователь не видит -->
+        <meta charset="UTF-8" /> <!-- Стандартная кодировка страницы UTF-8 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1"/> <!-- Как ширина страницы открывается на разных устройствах -->
+        <title>FE Intensive</title> <!-- Название страницы -->
+        <meta name="description" content="Studying FE"/>
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="style.css" /> <!-- Подключение css -->
+    </head>
+
+    <body>
+        <div class="app" id="app">
+            <header class="app__header header">
+                <div class="header__container container">
+
+                    <a href="/" class="header__logo">
+                        <img src="Assets/Logo.svg " alt="SYSTEM"
+                        width="190" height="32"
+                        class="header__logo"/>
+                    </a>
+                    
+                    <nav class="header__menu">
+                        <ul class="header__menu-list">
+
+                            <li class="header__menu-item">
+                                <a href="#app" class="header__menu-link">Домой</a>
+                            </li>
+
+                            <li class="header__menu-item">
+                                <a href="#features" class="header__menu-link">Особенности</a>
+                            </li>
+
+                            <li class="header__menu-item">
+                                <a href="#benefits" class="header__menu-link">Преимущества</a>
+                            </li>
+
+                        </ul>
+                    </nav>
+
+                </div>
+            </header>
+            
+
+
+
+            <main class="app__main">
+
+                <section class="hero">
+                    <div class="hero__container container">
+                        <div class="hero__content">
+                            <figure class="hero__figure">
+                                <img src="Assets/Hero_1.jpg" alt="Разработано 2000+ приложений" class="hero__image"/>
+                            </figure>
+
+                            <div class="hero__text">
+                            
+                                <h1 class="hero__title">
+                                    Разработано 2000+ приложений
+                                </h1>
+
+                                <div class="hero__subtitle">
+                                    Для вашего удобства мы разработали множество приложений 
+                                    для вашего бизнеса и команды, которые доступны 
+                                    в любое время суток    
+                                </div>
+
+                                <button class="hero__button">
+                                    Присоединяйтесь
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="hero__dots">
+                            <span class="hero__dot active"></span>
+                            <span class="hero__dot"></span>
+                            <span class="hero__dot"></span>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="features" id="features">
+                    <div class="features__container container">
+                        <h2 class="features__title">
+                            Особенности
+                        </h2>
+                        <div class="features__item">
+                            <div class="features__list">
+                                <h3 class="features__item-title active">Для бизнеса</h3>
+                                <h3 class="features__item-title">Для колл-центров</h3>
+                                <h3 class="features__item-title">Облачные хранилища</h3>
+                            </div>
+                            
+                                <p class="features__item-caption">
+                                        Создаем кастомизированные программы и сервисы
+                                        для развития управленческих команд в российских и
+                                        международных компаниях
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="benefits" id="benefits">
+                    <div class="benefits__container container">
+                        <h2 class="benefits__title">
+                            Преимущества
+                        </h2>
+
+                        <div class="benefits__list">
+                            <div class="benefits__item">
+                                <figure class="benefits__figure">
+                                    <img src="Assets/Benefits 1.svg" alt="check" 
+                                    class="benefits__image">
+                                </figure>
+                                <div class="benefits__item-content">
+                                    <h3 class="benefits__item-title">
+                                        Поддержка 24/7
+                                    </h3>
+
+                                    <p class="benefits__item-caption">
+                                        Вы можете положиться на нашу круглосуточную
+                                        поддержку, которая решит любой вопрос в течении часа
+                                    </p>
+                                </div>
+                            </div> 
+                        
+                            <div class="benefits__item">
+                                <figure class="benefits__figure">
+                                    <img src="Assets/Benefits 2.svg" alt="check" 
+                                    class="benefits__image">
+                                </figure>
+                                <div class="benefits__item-content">
+                                    <h3 class="benefits__item-title">
+                                        Гарантия возврата
+                                    </h3>
+
+                                    <p class="benefits__item-caption">
+                                        Если вам не понравится сервис, мы вернем вам
+                                        полную стоимость в течении 30-дневного периода
+                                    </p>
+                                </div>
+                            </div> 
+                        
+                            <div class="benefits__item">
+                                <figure class="benefits__figure">
+                                    <img src="Assets/Benefits 3.svg" alt="check" 
+                                    class="benefits__image">
+                                </figure>
+                                <div class="benefits__item-content">
+                                    <h3 class="benefits__item-title">
+                                        Удобсвто и простота
+                                    </h3>
+
+                                    <p class="benefits__item-caption">
+                                        Все наши сервисы и приложения интуитивно понятны
+                                        для пользователей всех уровней
+                                    </p>
+                                </div>
+                            </div> 
+                        
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+
+
+
+
+            <footer class="app_footer footer">
+                <div class="footer__container container">
+                    <div class="footer__copyright">
+                        2000-2022 © System
+                    </div>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <img src="Assets/facebook.png" alt="facebook" 
+                            width="50" height="50"
+                            class="footer__menu-social">
+                        </li>
+                        <li class="footer__menu-item">
+                            <img src="Assets/twitter.png" alt="twitter" 
+                            width="50" height="50"
+                            class="footer__menu-social">
+                        </li>
+                        <li class="footer__menu-item">
+                            <img src="Assets/instagramm.png" alt="instagramm" 
+                            width="50" height="50"
+                            class="footer__menu-social">
+                        </li>
+                    </ul>
+                </div>  
+            </footer>
+        </div>
+
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
