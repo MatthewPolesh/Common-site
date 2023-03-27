@@ -57,10 +57,9 @@ p
 .header
 {
     background: #424A57;
-    padding: 20px 0;
+    padding: 17px 0;
     height: 100%;
     position: sticky;
-    position: -1;
     top: 0;
 }
 
@@ -107,7 +106,7 @@ p
 
 .footer
 {
-    padding: 47px 0;
+    padding: 17px 0;
     background: rgba(66, 74, 87, 0.5);
 }
 
